@@ -15,7 +15,7 @@ def main():
         llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
         tool= PythonREPLTool(),
         agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-        verbose=True
+        verbose=True,
     )
 
     python_agent_executor.run("generate and save 5 different qr codes that redirects to https://raen.ai")
