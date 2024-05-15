@@ -10,6 +10,8 @@ openai = "*"
 langchain-community = "*"
 langchain-experimental = "*"
 qrcode = "*"
+pandas = "*"
+tabulate = "*"
 
 [dev-packages]
 
