@@ -9,6 +9,7 @@ langchain = "*"
 openai = "*"
 langchain-community = "*"
 langchain-experimental = "*"
+qrcode = "*"
 
 [dev-packages]
 

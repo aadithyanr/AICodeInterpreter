@@ -20,7 +20,5 @@ def main():
 
     python_agent_executor.run("generate and save 5 different qr codes that redirects to https://raen.ai")
 
-
-
 if __name__ == "__main__":
     print(main())
