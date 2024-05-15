@@ -1,3 +1,27 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Ignore the .env file
+.env
+
+# Ignore other common files/folders
+*.log
+node_modules/
+dist/
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: Specific ignores for Python projects
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.envrc
+
+# Optional: Specific ignores for different languages or frameworks
+# For example, ignoring build folders for frontend projects
+/build/
+/coverage/
+/*.lock
+/yarn-error.log
+
+# Include all other files
