@@ -41,7 +41,8 @@ def main():
             Tool(
                 name="CSVAgent",
                 func=csv_agent.run,
-                description="""useful for when you NEED to work with csv files, and answer questinon over emplyee csv file, takes an input the entire qurestion and returns only answer after the pandas calucalations""",
+                description="""useful for when you NEED to work with csv files, and answer question over employee csv file,
+                takes an input the entire qurestion and returns only answer after the pandas calucalations""",
             ),
         ],
         llm=ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
