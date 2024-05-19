@@ -24,10 +24,9 @@ def main():
         llm=ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
         agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         verbose=True,
-        path="employees.csv",
+        path="csv-file/employees.csv",
     )
 
-    csv_agent.run("which employee has the highest salary in the employees csv file?")
 
     grand_agent = initialize_agent(
         tools=[
@@ -36,7 +35,7 @@ def main():
                 func=python_agent_executor.run,
                 description="""useful for when you NEED to work with Natural Language Processing, 
                 and write it from python itself and execute the python code, returning the results 
-                of the code exection, DO NOT SEND PYTHON CODE BACK TO THIS TOOL""",
+                of the code exection, DO NOT SEND PYTHON CODE BACK TO THIS TOOL OKAY?? UNLESS ASKED.""",
             ),
             Tool(
                 name="CSVAgent",
@@ -48,6 +47,15 @@ def main():
         llm=ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
         agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         verbose=True,
+    )
+
+    print("****** Welcome to the Langchain Agent ******")
+    print("Generate qr codes - literal code for your applications!")
+    opt = input("What do you want me to do? : ")
+    print(opt)
+
+    grand_agent.run(
+        opt
     )
 
 

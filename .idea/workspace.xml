@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fe87e20-aebb-4545-8035-fcace39d2a0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/employees.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/qrexample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/replcode.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode_5.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aadithyan.NAIR\interpreter-agent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aadithyan.NAIR\interpreter-agent\images" />
+      <recent name="C:\Users\aadithyan.NAIR\interpreter-agent\qr-codes" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,5 +102,16 @@
       <updated>1715804578177</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
